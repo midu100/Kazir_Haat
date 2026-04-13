@@ -5,7 +5,7 @@ import { LuDroplets, LuLeaf, LuBean, LuSprout } from 'react-icons/lu'
 
 const CategorySection = () => {
   return (
-    <section className="w-full max-w-[1400px] mx-auto px-4 py-10">
+    <section className="w-full max-w-[1400px] mx-auto px-4 pb-10 pt-5">
       <h2 className="text-lg md:text-2xl font-bold text-dark font-poppins text-center mb-8">
         Shop by Category
       </h2>
