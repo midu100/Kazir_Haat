@@ -30,14 +30,21 @@ const Navbar = () => {
           <div className="w-full max-w-[1400px] mx-auto px-5 py-2.5 flex items-center justify-between gap-6">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 shrink-0">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <LuLeaf className="text-white text-xl" />
-              </div>
-              <div className="hidden sm:block leading-tight">
-                <span className="font-poppins font-bold text-lg text-primary block tracking-wide">KAZIR HAAT</span>
-                <span className="font-bangla text-[10px] text-body leading-none">Organic Marketplace</span>
-              </div>
-            </Link>
+  <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+    <LuLeaf className="text-white text-xl" />
+  </div>
+
+  {/* FIXED: show on mobile too */}
+  <div className="leading-tight">
+    <span className="font-poppins font-bold text-lg text-primary block tracking-wide">
+      KAZIR HAAT
+    </span>
+
+    <span className="font-bangla text-[10px] text-body leading-none">
+      Organic Marketplace
+    </span>
+  </div>
+</Link>
 
             {/* Search Bar */}
             <div className="flex-1 max-w-lg hidden md:flex items-center border border-gray-200 rounded-lg overflow-hidden hover:border-primary/50 focus-within:border-primary transition-colors">
